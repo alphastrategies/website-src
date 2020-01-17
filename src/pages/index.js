@@ -13,6 +13,7 @@ const IndexPage = () => (
     >
       English
     </Link>
+    {history.push('/egien')}
   </>
 )
 
