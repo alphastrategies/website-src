@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{RXBc:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),c=t.n(a),i=t("Wbzz");n.default=function(){return c.a.createElement(c.a.Fragment,null,c.a.createElement(i.Link,{to:"/egien"},"Deutsch"),c.a.createElement(i.Link,{to:"/egies"},"English"))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-63eb376140131cdfc0d0.js.map
