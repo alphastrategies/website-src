@@ -4,16 +4,11 @@ import { Link } from "gatsby"
 const IndexPage = () => (
   <>
     <Link
-      to="/egien"
-    >
-      Deutsch
-    </Link>
-    <Link
       to="/egies"
     >
-      English
+      Click here
     </Link>
-    {(typeof history !== 'undefined') && history.push('/egien')}
+    {(typeof window !== 'undefined') && (window.location.href = '/egies') && undefined}
   </>
 )
 
