@@ -6,7 +6,7 @@ import Images from "./images"
 const Header = () => (
   <header
     style={{
-      background: '#999',
+      background: '#bbb',
       //background: `rgba(16, 159, 0, 0.6)`,
       marginBottom: `1.45rem`,
       position: 'sticky'
@@ -19,18 +19,45 @@ const Header = () => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h3 style={{ margin: 0 }}>
+      <h3 style={{ margin: 0, display: 'inline-block' }}>
         <Link
-          to="/"
+          to="/egies"
           style={{
-            color: `white`,
             textDecoration: `none`,
+            color: "white",
+            marginRight: '2em'
           }}
         >
           <Images fileName="asLogo" style={{ width: "1em", display: "inline-block" }} />
-          AlphaStrategies
+          lphaStrategies
         </Link>
       </h3>
+      <h6
+        style={{ display: 'inline-block', marginRight: '1em' }}
+      >
+        <Link
+          to="/egies/produkte"
+          style={{
+            textDecoration: `none`,
+            color: "white"
+          }}
+        >
+          Produkte
+        </Link>
+      </h6>
+      <h6
+        style={{ display: 'inline-block' }}
+      >
+        <Link
+          to="/egies/geschichte"
+          style={{
+            textDecoration: `none`,
+            color: "white"
+          }}
+        >
+          Firmengeschichte
+        </Link>
+      </h6>
     </div>
   </header>
 )
