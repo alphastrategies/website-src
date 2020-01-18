@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../components/layout"
-import Images from "../components/images"
+import Layout from "../../components/layout"
+import Images from "../../components/images"
 
 const GermanPage = () => (
   <Layout>

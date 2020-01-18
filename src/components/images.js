@@ -36,11 +36,24 @@ const Images = ({ fileName, style }) => {
             ...GatsbyImageSharpFluid
           }
         }
+      },
+      seminar1: file(relativePath: { eq: "seminar1.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 900) {
+            ...GatsbyImageSharpFluid
+          }
+        }
       }
     }
   `)
 
-  return <Img fluid={data[fileName].childImageSharp.fluid} style={style} />
+  return <Img
+    fluid={data[fileName].childImageSharp.fluid}
+    style={{
+      marginBottom: 16,
+      ...style
+    }}
+  />
 }
 
 export default Images
