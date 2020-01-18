@@ -28,7 +28,7 @@ const Header = () => (
             marginRight: '2em'
           }}
         >
-          <Images fileName="asLogo" style={{ width: "1em", display: "inline-block" }} />
+          <Images fileName="asLogo" style={{ width: "1em", display: "inline-block", marginBottom: 0 }} />
           lphaStrategies
         </Link>
       </h3>
