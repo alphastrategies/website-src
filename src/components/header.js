@@ -1,11 +1,13 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Images from "./images"
 
 const Header = () => (
   <header
     style={{
-      background: `rgb(16, 159, 0)`,
+      background: '#999',
+      //background: `rgba(16, 159, 0, 0.6)`,
       marginBottom: `1.45rem`,
       position: 'sticky'
     }}
@@ -25,6 +27,7 @@ const Header = () => (
             textDecoration: `none`,
           }}
         >
+          <Images fileName="asLogo" style={{ width: "1em", display: "inline-block" }} />
           AlphaStrategies
         </Link>
       </h3>

@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import Images from "../components/images"
 
 const GermanPage = () => (
   <Layout>
@@ -8,7 +9,7 @@ const GermanPage = () => (
       Gegründed 2010 in München von 6 erfahrenen Projektmanagern ist AlphaStrategies ein junges Unternehmen,
       das jedoch insgesamt die Erfahrung von über 180 Jahren in Projektmanagement akkumuliert.
     </p>
-    <img />
+    <Images fileName="alphastrategiesHQ" />
     <p>
       Als Anbieter der marktführenden AlphaStrat Projektsimulationsplatform können wir unsere Erfahrungen
       jedem Unternehmen Weltweit anbieten. Von uns geschulte und zertifizierte Seminarleiter sind überall verfügbar,
